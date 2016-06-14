@@ -5,7 +5,7 @@
 #include <fcntl.h>
 #include <termios.h>
 #include <stdio.h>
-#define BAUDRATE        B9600
+#define BAUDRATE        B115200
 #define MODEMDEVICE     "/dev/ttymxc0"
 #define _POSIX_SOURCE   1
 
